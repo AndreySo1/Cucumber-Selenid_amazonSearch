@@ -1,0 +1,15 @@
+#ignore
+demo/target/
+
+#vscode
+.vscode/
+
+build/
+target/
+
+#idea
+.idea/
+demo/demo.iml
+
+#chromedriver
+# demo/src/test/resources/webdriver/*.exe
