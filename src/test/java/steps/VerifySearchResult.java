@@ -10,7 +10,6 @@ import org.testng.Assert;
 
 import static com.codeborne.selenide.Selenide.$$x;
 import static com.codeborne.selenide.Selenide.$x;
-import static steps.constants.Constants.Var.WRONG_DATA;
 import static steps.helpers.SearchTextInListElements.searchRegistr;
 
 public class VerifySearchResult {
