@@ -2,6 +2,7 @@ Feature: verifySearchResult
 
   Background: I am on main page webSite
     Given Open page "https://amazon.com/"
+    And Wait to active search field
 
   Scenario Outline: Input incorrect data in search field
     When Input in search field <wrongData> end click ENTER
